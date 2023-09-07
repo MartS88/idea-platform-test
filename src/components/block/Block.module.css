@@ -1,0 +1,9 @@
+.block {
+  width: 400px;
+  height: 400px;
+  border: 1.5px solid whitesmoke;
+  background: white;
+  box-shadow: 5px 4px 8px -1px rgba(10, 5, 1, 0.3);
+}
+
+/*# sourceMappingURL=Block.module.css.map */

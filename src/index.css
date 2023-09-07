@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import "reset.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.active {
+  color: #F49867;
+  text-decoration: underline;
+  text-underline-offset: 5.5px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,155 @@
+.fiats {
+
+
+  .fiats_title {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+
+  }
+
+  .currency_block {
+
+    padding: 0 20px;
+
+    ul {
+
+      display: flex;
+      list-style: none;
+      padding: 0;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 5px;
+
+      li {
+        display: inline-flex;
+        padding: 10px 20px;
+        border-right: 1px solid rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+        justify-content: center;
+        flex: 1;
+        font-family: 'Roboto';
+        font-size: 1.1rem;
+        color: rgb(29, 116, 211);
+        transition: all .1s ease;
+
+        &:hover {
+
+          background-color: #43acf8;
+          color: white;
+
+        }
+
+        &:active {
+          background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        &.active {
+          background-color: rgb(29, 116, 211);
+          color: #fff;
+        }
+      }
+    }
+  }
+  .stops {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    h2 {
+
+      padding-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 20px;
+      display: inline-block;
+      font-family: 'Roboto';
+      font-size: 1rem;
+      font-weight: 500;
+      color: black;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+
+
+      label {
+
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.1s ease;
+
+
+
+        &:hover {
+          background-color: #43acf8;
+        }
+        span {
+          font-family: 'Roboto';
+          font-size: 1rem;
+
+        }
+      }
+    }
+  }
+
+  .stops {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    h2 {
+
+      padding-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 20px;
+      display: inline-block;
+      font-family: 'Roboto';
+      font-size: 1rem;
+      font-weight: 500;
+      color: black;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+
+
+      label {
+
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.1s ease;
+
+
+
+        &:hover {
+          background-color: #43acf8;
+        }
+        span {
+          font-family: 'Roboto';
+          font-size: 1rem;
+
+        }
+      }
+    }
+  }
+}

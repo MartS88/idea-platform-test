@@ -1,0 +1,147 @@
+.to_start {
+  padding: 15px 15px;
+  border: 1.5px solid whitesmoke;
+  background: white;
+  box-shadow: 5px 4px 8px -1px rgba(10, 5, 1, 0.3);
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.to_start img {
+  margin-bottom: 10px;
+}
+.to_start p {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tickets .ticket {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  border: 1.5px solid whitesmoke;
+  background: white;
+  box-shadow: 5px 4px 8px -1px rgba(10, 5, 1, 0.3);
+  transition: all 0.3s ease;
+}
+.tickets .ticket:hover {
+  border: 1.5px solid whitesmoke;
+}
+.tickets .ticket .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tickets .ticket .info button {
+  width: 200px;
+  padding: 5px 30px;
+  background: #FF4820;
+  border: 1px solid orange;
+  transition: all 0.3s ease;
+  font-family: "Maiandra GD";
+  color: #FAEBD7;
+  border-radius: 10px;
+}
+.tickets .ticket .info button:hover {
+  border: 1px solid orange;
+  background: #ff7520;
+  color: #FAEBD7;
+  cursor: pointer;
+}
+.tickets .ticket .location {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.tickets .ticket .location .departure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tickets .ticket .location .departure p {
+  font-family: "Roboto";
+  font-size: 2rem;
+}
+.tickets .ticket .location .departure span {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  color: steelblue;
+  font-weight: 500;
+}
+.tickets .ticket .location .way {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.tickets .ticket .location .way p {
+  font-size: 1rem;
+  font-family: "Roboto";
+  color: black;
+}
+.tickets .ticket .location .way .airplane {
+  display: flex;
+  align-items: center;
+}
+.tickets .ticket .location .way .airplane span {
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: gray;
+}
+.tickets .ticket .location .way .flight_number {
+  transform: translateY(100%);
+  font-size: 0.8rem;
+  font-family: "Maiandra GD";
+  color: #F49867;
+}
+.tickets .ticket .location .arrival {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tickets .ticket .location .arrival p {
+  font-family: "Roboto";
+  font-size: 2rem;
+}
+.tickets .ticket .location .arrival span {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: steelblue;
+}
+.tickets .no_tickets {
+  padding: 15px 15px;
+  border: 1.5px solid whitesmoke;
+  background: white;
+  box-shadow: 5px 4px 8px -1px rgba(10, 5, 1, 0.3);
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tickets .no_tickets p {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=Tickets.module.css.map */

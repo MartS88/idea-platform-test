@@ -1,0 +1,20 @@
+.app {
+  min-height: 100vh;
+  background: whitesmoke;
+}
+.app .logo {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.app .wrapper {
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 1150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+/*# sourceMappingURL=App.module.css.map */
